@@ -1,5 +1,8 @@
 #! usr/bin/env python3
-
+# This program when run after copying some text will extract all the phone numbers and emails 
+# in the copied selection and will make it available to paste.
+# It has no output. Just copy, run this, and you can paste the extracted data
+ 
 import re, pyperclip
 
 #Create regex for phone number
